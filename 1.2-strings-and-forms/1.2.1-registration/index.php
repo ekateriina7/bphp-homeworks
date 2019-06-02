@@ -6,7 +6,7 @@ $firstName = $_POST['firstName'];
 $lastName = $_POST['lastName'];
 $middleName = $_POST['middleName'];
 $code = $_POST['code'];
-$patternLogin = '/\@|\/|\*|\?|\,|\;/|\:/';
+$patternLogin = '/\@|\;|\?|\/|\:|\*/';
 $patternEmail = '/\w+\@\w+\.\w+/';
 $patternCode = 'nd82jaake';
 if(preg_match($patternLogin, $login) === 1) {
@@ -17,7 +17,7 @@ if(preg_match($patternLogin, $login) === 1) {
     echo "Почта должна быть формата почта@домен.доменнаязона";
 } elseif(strlen($firstName) === 0) {
     echo "Поле Имя не может быть пустым";
-} elseif(strlen($lastname) === 0) {
+} elseif(strlen($lastName) === 0) {
     echo "Поле Фамилия не может быть пустым"; 
 } elseif(strtolower($code) !==$patternCode) {
     echo "Кодовое слово неверно"; 
