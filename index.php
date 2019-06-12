@@ -22,14 +22,23 @@
                     <li><a href="1.2-strings-and-forms/1.2.3-additional">Задание 1.2.3</a></li>
                 </ul>
             </li>
-            <li>Занятие 1.2. Работа с формами и строками
+            <li>Занятие 1.3. Работа с массивами и функциями
                 <ul>
                     <li><a href="1.3-arrays-and-functions/1-places">Задание 1.3.1</a></li>
                     <li><a href="1.3-arrays-and-functions/2-search">Задание 1.3.2</a></li>
                 </ul>
             </li>
+            
         </ul>
     </li>
+    <li>Блок 2. Работа с файлами
+        <ul>
+            <li>Занятие 2.1. Файлы
+                <ul>
+                    <li><a href="2.1-files/2.1.1/csvtojson.php">Задание 2.1.1</a></li>
+                    <li><a href="2.1-files/2.1.2">Задание 2.1.2</a></li>
+                </ul>
+            </li>
 </ul>
 </body>
 </html>
