@@ -39,6 +39,26 @@
                     <li><a href="2.1-files/2.1.2">Задание 2.1.2</a></li>
                 </ul>
             </li>
+            <li>Занятие 2.3. Работа с датами и сессиями
+                <ul>
+                    <li><a href="2.3-dates-and-sessions/2.3.1-your-tube">Задание 2.3.1</a></li>
+                    <li><a href="2.3-dates-and-sessions/2.3.2-brute-protection">Задание 2.3.2</a></li>
+                </ul>
+            </li>
+        </ul>  
+    </li>
+    <li>Блок 3. PHP как средство профессиональной разработки
+        <ul>
+            <li>Занятие 3.1. Работа с исключениями. Заголовки
+                <ul>
+                    <li><a href="3.1-exceptions-and-headers/3.1.1-router">Задание 3.1.1</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>  
+    </li>
+
 </ul>
 </body>
 </html>

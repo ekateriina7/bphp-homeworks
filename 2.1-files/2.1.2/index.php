@@ -5,6 +5,7 @@
  <input type="submit"  value="submit" class="btn btn-success"> 
 </form>
 <?php
+
 if($_FILES['file']['type'] === 'image/jpeg' || $_FILES['file']['type'] === 'image/png' || $_FILES['file']['type'] === 'image/gif'){ 
     $tmp = $_FILES['file']['tmp_name'];
     $name = $_FILES['file']['name'];
@@ -14,4 +15,10 @@ if($_FILES['file']['type'] === 'image/jpeg' || $_FILES['file']['type'] === 'imag
 } else {
     echo "wrong formate";
 }
-?>
+$uploadDir = 'images/';
+$files = scandir($uploadDir);
+foreach ($files as $file) {
+     echo "<img class=\"image\" src=\"" . $uploadDir . $file . "\" >";
+    
+}
+?>    
